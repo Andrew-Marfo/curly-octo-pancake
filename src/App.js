@@ -1,5 +1,7 @@
 import SideBar from "./components/sidebar-component/sidebar.component";
 
+import './App.css'
+
 const App = () => {
   return (
     <div className="body-container">
@@ -8,4 +10,4 @@ const App = () => {
   );
 } 
 
-export default App;
+export default App;  
