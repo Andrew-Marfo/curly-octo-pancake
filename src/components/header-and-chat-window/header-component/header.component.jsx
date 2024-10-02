@@ -1,7 +1,11 @@
 const Header = () => {
     return (
         <div className="header-container">
-            <p>This is the header of the project</p>
+            <h2 className="header-title">ICG chat</h2>
+            <div className="search-container"></div>
+            <div className="header-button"></div>
+            <div className="header-button"></div>
+            <div className="user-profile"></div>
         </div>
     );
 }
