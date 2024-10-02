@@ -1,0 +1,6 @@
+.header-and-chat-container {
+  background-color: red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
