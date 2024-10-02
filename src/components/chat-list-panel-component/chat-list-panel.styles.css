@@ -1,0 +1,37 @@
+.chat-list-panel-container {
+  width: 230px;
+  background-color: red;
+  margin: 0px 20px;
+}
+
+.user-container {
+  background-color: #1a1a1a;
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px 10px;
+}
+
+.profile-picture {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.user-name{
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.message{
+    color: grey;
+    font-size: 10px;
+}
