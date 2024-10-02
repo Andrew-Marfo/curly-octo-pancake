@@ -3,7 +3,34 @@
   flex-direction: row;
   height: 40px;
   align-items: center;
+  justify-content: space-between;
   background-color: green;
 }
 
+.header-title {
+  color: white;
+  font-weight: bold;
+}
 
+.search-buttons-and-profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  background-color: #1a1a1a;
+  height: 35px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.header-search-box {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+}
