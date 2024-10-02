@@ -5,21 +5,26 @@
   border-radius: 10px;
   align-items: center;
   width: 70px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .sidebar-menu-item {
   padding: 10px;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   background-color: #303030;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sidebar-menu-item h5 {
+  font-size: 12px;
+  font-weight: 100;
 }
 
 .menu-button {
@@ -32,8 +37,11 @@
   justify-content: center;
   align-items: center;
 }
-
 .add-button {
   position: absolute;
   bottom: 35px;
+}
+
+.icon {
+  margin-bottom: 20px;
 }
