@@ -1,4 +1,5 @@
 import MenuButton from './sidebar-menu-button.component';
+import { MdAdd } from 'react-icons/md';
 
 import './sidebar.styles.css';
 
@@ -39,7 +40,7 @@ const SideBar = () => {
                     </div>
                 );
             })}
-            <MenuButton className={'add-button'} icon={'icon'} />
+            <MenuButton className={'add-button'} icon={<MdAdd size={25} />} />
         </div>
     );
 }
