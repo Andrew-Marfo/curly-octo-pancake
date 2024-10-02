@@ -1,0 +1,39 @@
+.sidebar-container {
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  width: 70px;
+  padding: 10px;
+}
+
+.sidebar-menu-item {
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #303030;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-button {
+  background-color: #f4ffac;
+  padding: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button {
+  position: absolute;
+  bottom: 35px;
+}

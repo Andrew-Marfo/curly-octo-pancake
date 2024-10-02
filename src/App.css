@@ -8,4 +8,6 @@
   background-color: #000000;
   height: 100vh;
   width: 100%;
+  padding: 20px;
+  display: flex;
 }
