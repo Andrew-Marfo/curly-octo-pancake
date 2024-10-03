@@ -47,8 +47,7 @@
   border-radius: 50%;
 }
 
-.user-profile {
-  background-image: url("/public/images/user-image.jpg");
+.user-profile img{
   height: 35px;
   width: 35px;
   border-radius: 50%;

@@ -1,5 +1,6 @@
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { MdOutlineSettings, MdOutlineNotifications } from "react-icons/md";
+import  UserProfilePicture  from './user-image.jpg'
 
 import './header.styles.css';
 
@@ -18,7 +19,9 @@ const Header = () => {
                 <div className="header-button">
                     <MdOutlineNotifications size={20} color="white" />
                 </div>
-                <div className="user-profile" />
+                <div className="user-profile">
+                    <img src={UserProfilePicture} alt="Profile-picture" />
+                </div>
             </div>
         </div>
     );
