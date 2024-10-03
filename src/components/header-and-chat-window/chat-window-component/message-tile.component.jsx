@@ -1,7 +1,8 @@
 import './chat-window.css';
 
 
-const MessageTile = ({ picture, userName, message, time }) => {
+const MessageTile = ({ messageItem }) => {
+    const { picture, userName, message, time } = messageItem;
     return (
         <div className="message-tile">
             <div className="profile-picture">
