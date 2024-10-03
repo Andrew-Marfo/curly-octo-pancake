@@ -1,6 +1,6 @@
 import Header from './header-component/header.component.jsx'
 import ChatWindow
-    from './chat-window.components.jsx';
+    from './chat-window-component/chat-window.components.jsx';
 
 import './header-and-chat-window.styles.css'
 

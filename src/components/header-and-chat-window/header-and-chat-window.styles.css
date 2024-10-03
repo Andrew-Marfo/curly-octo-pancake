@@ -7,6 +7,6 @@
 .chat-window-and-others {
   display: flex;
   flex-direction: row;
-  background-color: purple;
   height: 100%;
+  width: 100%;
 }
