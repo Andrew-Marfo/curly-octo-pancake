@@ -13,14 +13,14 @@ const ChatWindow = () => {
             id: 0,
             name: 'Island Yves',
             message: 'Hi there, this is just a ui. I\'m still learning the framework',
-            imageUrl: { UserProfilePicture },
+            imageUrl: UserProfilePicture,
             time: '6:35pm',
         },
         {
             id: 1,
             name: 'Precious Mountain',
             message: 'I\'m also a graduate who just finished college and will start nss very soon.',
-            imageUrl: { GirlProfilePicture },
+            imageUrl: GirlProfilePicture,
             time: '6:45pm',
         },
     ]
@@ -31,7 +31,7 @@ const ChatWindow = () => {
             <Date date='9 Sept 2024' />
             {messages.map((message) => {
                 return (
-                    <MessageTile messageItem={message} />
+                    <MessageTile key={message.id} messageItem={message} />
                 );
             })}
         </div>

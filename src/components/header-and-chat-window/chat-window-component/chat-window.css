@@ -17,19 +17,33 @@
   object-fit: cover;
 }
 
-.message-date{
-    height: 20px;
-    width: 80px;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #303030;
+.message-date {
+  height: 20px;
+  width: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #303030;
 }
 
-.message-date h5{
-    color: white;
-    font-size: 10px;
-    font-weight: 100;
+.message-date h5 {
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.message-tile {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.profile-picture img{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  
 }
