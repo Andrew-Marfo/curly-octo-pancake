@@ -1,5 +1,6 @@
 import MessageTile from './message-tile.component';
-import ChatBackgound from './chat-image-backgorund.jpg'
+import ChatBackgound from './chat-image-backgorund.jpg';
+import ChatInbox from './chat-inbox-component';
 import Date from './date.component';
 import GirlProfilePicture from './girl-profile-picture.jpg';
 import UserProfilePicture from '../header-component/user-image.jpg';
@@ -40,6 +41,7 @@ const ChatWindow = () => {
                     <MessageTile key={message.id} messageItem={message} />
                 );
             })}
+            <ChatInbox/>
         </div>
 
     );
