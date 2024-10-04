@@ -34,6 +34,12 @@ const ChatWindow = () => {
                     <MessageTile key={message.id} messageItem={message} />
                 );
             })}
+            <Date date='10 Sept 2024' />
+            {messages.map((message) => {
+                return (
+                    <MessageTile key={message.id} messageItem={message} />
+                );
+            })}
         </div>
 
     );
