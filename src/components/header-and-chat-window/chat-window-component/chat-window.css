@@ -90,9 +90,13 @@
 
 .attach {
   margin-right: 10px;
-  transform: rotate(30deg); 
+  transform: rotate(30deg);
 }
 
-.send{
+.send {
   transform: rotate(310deg);
+}
+
+.chat-inbox-container input:focus {
+  outline: none;
 }
