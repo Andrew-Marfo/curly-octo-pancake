@@ -8,7 +8,7 @@ const MessageTile = ({ messageItem }) => {
             <div className="profile-picture">
                 <img src={imageUrl} alt="profile-picture" />
             </div>
-            <div className="name-and-nessage-container">
+            <div className="name-and-message-container">
                 <h4 className="user-name">{name}</h4>
                 <p className="message">{message}</p>
             </div>

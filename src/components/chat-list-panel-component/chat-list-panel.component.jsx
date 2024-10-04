@@ -18,7 +18,6 @@ const ChatListPanel = () => {
 
     return <div className="chat-list-panel-container">
         {users.map(({ id, name, imageUrl }) => {
-            console.log(imageUrl);
             return (
                 <div key={id} className="user-container">
                     <div className="profile-picture" style={{
