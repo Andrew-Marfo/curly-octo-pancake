@@ -1,6 +1,6 @@
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { MdOutlineSettings, MdOutlineNotifications } from "react-icons/md";
-import  UserProfilePicture  from './user-image.jpg'
+import UserProfilePicture from './user-image.jpg'
 
 import './header.styles.css';
 

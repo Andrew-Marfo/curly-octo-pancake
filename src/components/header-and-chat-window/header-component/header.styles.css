@@ -1,10 +1,9 @@
 .header-container {
   display: flex;
   flex-direction: row;
-  height: 40px;
+  height: 8%;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
 }
 
 .header-title {
@@ -17,6 +16,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-right: 10px;
 }
 
 .search-container {
@@ -47,9 +47,15 @@
   border-radius: 50%;
 }
 
-.user-profile img{
+.user-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile img {
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  margin-right: 10px;
+  object-fit: cover;
 }
