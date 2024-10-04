@@ -8,6 +8,7 @@
 .chat-window-and-others {
   display: flex;
   flex-direction: row;
-  height: 92%;
+  height: 90.5%;
   width: 100%;
+  margin-top: 1.5%;
 }

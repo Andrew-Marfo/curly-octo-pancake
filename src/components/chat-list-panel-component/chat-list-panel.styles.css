@@ -23,14 +23,14 @@
   margin-right: 10px;
 }
 
-.user-name{
-    color: white;
-    font-weight: 100;
-    font-size: 12px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.user-name {
+  color: white;
+  font-weight: 100;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.message{
-    color: grey;
-    font-size: 10px;
+.message {
+  color: grey;
+  font-size: 10px;
 }
